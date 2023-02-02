@@ -1,0 +1,21 @@
+### 
+GET http://localhost:3000/api/getall HTTP/1.1
+
+### Without auth
+POST http://localhost:3000/api/addone HTTP/1.1
+content-type: application/json
+
+{
+    "data": {
+        "Fach": "Deutsch",
+        "Note": 3
+    }
+}
+
+###
+DELETE http://localhost:3000/api/delete HTTP/1.1
+content-type: application/json
+
+{
+    "id": "5"
+}

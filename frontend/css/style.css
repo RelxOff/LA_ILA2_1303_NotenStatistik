@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(33, 33, 212);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30%;  
+    padding-right: 30%;
+}
+
+#createGrade {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(232, 36, 36);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: auto;
+    padding: 0;
+}
+
+#home {
+    text-align: center;
+}

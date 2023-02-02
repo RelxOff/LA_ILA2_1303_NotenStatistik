@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "eslint --fix ./js --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RelxOff/LA_ILA2_1303_Projekt.git"
+  },
+  "author": "Dominik Kreiselmaier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RelxOff/LA_ILA2_1303_Projekt/issues"
+  },
+  "homepage": "https://github.com/RelxOff/LA_ILA2_1303_Projekt#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3"
+  }
+}
