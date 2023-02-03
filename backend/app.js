@@ -69,6 +69,7 @@ app.delete("/api/delete", (req, res) => {
       }
     }
   } catch (error) {
+        //for debugging
     console.log(error);
     res.json({
       error: true,
@@ -83,4 +84,6 @@ app.listen(port, () => {
 
 /* 
 https://www.youtube.com/watch?v=Znh8Ell_lCk hat mir beim erstellen von get geholfen.
+Die ersten 10 Zeilen und das app.listen sind vom Video. Ich habe die Grundidee vom Video, 
+aber die Sachen in den Funktionen wurden selber gemacht.
 */
